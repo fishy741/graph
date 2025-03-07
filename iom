@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+# Example data
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+# Create the line graph
+plt.plot(x, y, label="y = x^2")
+
+# Add labels and title
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Simple Line Graph')
+
+# Show the graph
+plt.legend()
+plt.show()
